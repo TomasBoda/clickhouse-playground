@@ -4,7 +4,7 @@ JavaScript program that queries over the ClickHouse database.
 ## Usage
 In order to use the program, first start the ClickHouse server using the ClickHouse binaries and the command `./clickhouse server`.
 
-The JavaScript program can be started using `npm run start` in the project root.
+In order to start the JavaScript program, you will need to have `Node.js` installed on your local computer. Then navigate to the project root and run `npm install` in the terminal. After the necessary packages are installed, the JavaScript program can be started using `npm run start` command.
 
 ## Results
 After running the program, all tables will be created and the queries will be executed. The results of the queries are stored in `/results` folder as individual `JSON` files.
